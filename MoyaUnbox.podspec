@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.subspec "Core" do |ss|
     ss.source_files  = "Sources/MoyaUnbox/*.swift"
     ss.dependency "Moya", "~> 14.0.0-beta.2"
-    ss.dependency "Unbox", "~> 2.4"
+    ss.dependency "Unbox", "~> 4.0"
     ss.framework = "Foundation"
   end
 
